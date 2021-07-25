@@ -46,3 +46,9 @@ E:\C#\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CopyComplete
 E:\C#\Blog\obj\Debug\netcoreapp3.1\Blog.dll
 E:\C#\Blog\obj\Debug\netcoreapp3.1\Blog.pdb
 E:\C#\Blog\obj\Debug\netcoreapp3.1\Blog.genruntimeconfig.cache
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.csprojAssemblyReference.cache
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfoInputs.cache
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.AssemblyInfo.cs
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.csproj.CoreCompileInputs.cache
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.dll
+R:\dese.git\.Net-CSharp-Dapper-e-SqlServer\Blog\obj\Debug\netcoreapp3.1\Blog.pdb

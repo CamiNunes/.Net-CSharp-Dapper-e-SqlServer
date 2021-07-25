@@ -1769,11 +1769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\Blog\\Blog.csproj",
+      "projectUniqueName": "R:\\dese.git\\.Net-CSharp-Dapper-e-SqlServer\\Blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "E:\\C#\\Blog\\Blog.csproj",
+      "projectPath": "R:\\dese.git\\.Net-CSharp-Dapper-e-SqlServer\\Blog\\Blog.csproj",
       "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\Blog\\obj\\",
+      "outputPath": "R:\\dese.git\\.Net-CSharp-Dapper-e-SqlServer\\Blog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

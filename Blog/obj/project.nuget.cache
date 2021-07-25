@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WphtPX53eikXMqSdTHGA7HfNRWsYWKLTWgWxGAVsE3eYBaSSoiuo4koY4eBg1Pzn4TMmXFf16RYaU6hshxVvEA==",
+  "dgSpecHash": "ICtYH4Jl8HFDTSlRATsqIWgx2tb2WC+XQ3RZZt/FDKDRqnelJ0pqB3f578+5AAbfAGyGWweeaaWj9NiC6I6jyA==",
   "success": true,
-  "projectFilePath": "E:\\C#\\Blog\\Blog.csproj",
+  "projectFilePath": "R:\\dese.git\\.Net-CSharp-Dapper-e-SqlServer\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
