@@ -16,14 +16,15 @@ namespace Blog
             connection.Open();
             
             //ReadUser();
-            //ReadUsers();
+            //ReadUsers(connection);
+            ReadRoles(connection);
             //CreateUser();
             //UpdateUser();
             //DeleteeUser();
 
             connection.Close();
         }
-        public void ReadUsers(SqlConnection connection)
+        public static void ReadUsers(SqlConnection connection)
         {
             var repository = new UserRepository(connection);
             var users = repository.Get();
@@ -33,66 +34,16 @@ namespace Blog
                 Console.WriteLine(user.Name);   
             }
         }
-        public static void ReadUser()
+        public static void ReadRoles(SqlConnection connection)
         {
-            using(var connection = new SqlConnection(CONNECTION_STRING))
-            {
-                var user = connection.Get<User>(1);
+            var repository = new RoleRepository(connection);
+            var roles = repository.Get();
 
-                Console.WriteLine(user.Name);   
+            foreach (var role in roles)
+            {
+                Console.WriteLine(role.Name);   
             }
         }
-
-        public static void CreateUser()
-        {
-            var user = new User()
-            {
-                Name = "Camila Viana Nunes",
-                Email = "cvn.camila@gmail.com",
-                Bio = "Desenvolvedora Delphi e C#",
-                PasswordHash = "HashHash",
-                Image = "https://",
-                Slug = "camila-viana-nunes" 
-            };
-
-            using(var connection = new SqlConnection(CONNECTION_STRING))
-            {
-                connection.Insert<User>(user);
-
-                Console.WriteLine("Cadastro realizado com sucesso.");   
-            }
-        }
-
-        public static void UpdateUser()
-        {
-            var user = new User()
-            {
-                Id = 2,
-                Name = "Camila Viana Nunes",
-                Email = "cvn.camila@gmail.com",
-                Bio = "Desenvolvedora Delphi e C# .Net", 
-                PasswordHash = "HashHash",
-                Image = "https://",
-                Slug = "camila-viana-nunes" 
-            };
-
-            using(var connection = new SqlConnection(CONNECTION_STRING))
-            {
-                connection.Update<User>(user);
-
-                Console.WriteLine("Cadastro alterado com sucesso.");   
-            }
-        }
-
-        public static void DeleteeUser()
-        {
-            using(var connection = new SqlConnection(CONNECTION_STRING))
-            {
-                var user = connection.Get<User>(2);
-                connection.Delete<User>(user);
-
-                Console.WriteLine("Usuário excluído com sucesso.");   
-            }
-        }
+        
     }
 }
