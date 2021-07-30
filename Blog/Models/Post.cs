@@ -4,8 +4,6 @@ using Dapper.Contrib.Extensions;
 
 namespace Blog.Models
 {
-    public class Post
-    {
     [Table("[Post]")]
     public class Post
     {
@@ -28,5 +26,4 @@ namespace Blog.Models
         [Write(false)]
         public List<Tag> Tags { get; set; }
     }    
-    }
 }
